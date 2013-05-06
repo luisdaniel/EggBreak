@@ -6,7 +6,8 @@ This is a simple sketch, where using your computer's accelerometer, you can tip 
 You could also write a simple Arduino sketch and write to the serial port. Sketch can be simple like this (you might need to change the mapping values):
 
 
-```void setup() {
+```
+void setup() {
   Serial.begin(9600);
 }
 
